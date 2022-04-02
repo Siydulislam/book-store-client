@@ -10,14 +10,6 @@
     position: relative;
 }
 
-.product-card:hover {
-    transform: translateX(-10px);
-    transform: translateY(-10px);
-    box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px,
-        rgba(0, 0, 0, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -20px 20px,
-        rgba(0, 0, 0, 0.05) -25px 25px;
-}
-
 .book-card>.image-container>img {
     height: 350px;
     width: 300px;

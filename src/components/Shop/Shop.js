@@ -16,10 +16,6 @@ const Shop = () => {
     const handleAddToCart = (selectedBook) => {
         let newCart = [];
 
-        // if (cart.length == 4) {
-        //     alert("You can not choose more than 4 books!");
-        // }
-
         const exist = cart.find(book => book.id == selectedBook.id);
 
         if (!exist) {

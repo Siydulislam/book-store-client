@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Cart.css";
 
-const Cart = ({ cart, books, handleClearCart }) => {
-    console.log(cart, books)
+const Cart = ({ cart, handleClearCart }) => {
+    const [chosenBook, setChosenBook] = useState({});
+    console.log(chosenBook)
+
+    const handleChosenBook = () => {
+        const randomNumber = Math.floor(Math.random() * cart.length);
+        const book = cart[randomNumber];
+        setChosenBook(book);
+    };
+
     return (
         <div className='cart'>
             <div className='cart-header'>
@@ -18,13 +26,21 @@ const Cart = ({ cart, books, handleClearCart }) => {
                 </div>
             ))}
             <div>
-                <button className="choose-button">
+                <button className="choose-button" onClick={handleChosenBook}>
                     Choose one for me
                 </button>
+                {Object.keys(chosenBook).length > 0 && (
+                    <div className='cart-item'>
+                        <img src={chosenBook.image} alt='' />
+                        <div>
+                            <h4>{chosenBook.name}</h4>
+                            <h5>{chosenBook.author}</h5>
+                        </div>
+                    </div>
+                )}
                 <button
                     onClick={handleClearCart}
                     className='remove-button'
-                    title='Clear Cart'
                 >
                     Choose Again
                 </button>

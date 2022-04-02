@@ -1,0 +1,178 @@
+[
+    {
+        "id": "abcd",
+        "name": "The 4-Hour Work Week",
+        "author": "Timothy Ferriss",
+        "image": "https://i.ibb.co/BjQHgg6/the-four-hour-work-week.jpg",
+        "price": 120,
+        "quantity": 0
+    },
+    {
+        "id": "efgh",
+        "name": "The Seven Habits of Highly Effective People",
+        "author": "Stephen R. Covey",
+        "image": "https://i.ibb.co/xDjBp95/the-seven-habbits-of-highly-effective-people.jpg",
+        "price": 130,
+        "quantity": 0
+    },
+    {
+        "id": "ijkl",
+        "name": "The Art of War",
+        "author": "Sun Tzu",
+        "image": "https://i.ibb.co/0XbQtFv/the-art-of-war.jpg",
+        "price": 110,
+        "quantity": 0
+    },
+    {
+        "id": "mnop",
+        "name": "The Magic of Thinking Big",
+        "author": "David J. Schwartz",
+        "image": "https://i.ibb.co/0V1SMWs/the-magic-of-thinking-big.jpg",
+        "price": 110,
+        "quantity": 0
+    },
+    {
+        "id": "qust",
+        "name": "Think and Grow Rich",
+        "author": "Napoleon Hill",
+        "image": "https://i.ibb.co/0q6q8R0/think-and-grow-rich.jpg",
+        "price": 140,
+        "quantity": 0
+    },
+    {
+        "id": "uvwx",
+        "name": "Secrets of the Millionaire Mind",
+        "author": "T. Harv Eker",
+        "image": "https://i.ibb.co/0jMy7mq/the-secrets-of-the-millionaire-mind.jpg",
+        "price": 120,
+        "quantity": 0
+    },
+    {
+        "id": "yzab",
+        "name": "The Tipping Point",
+        "author": "Malcolm Gladwell",
+        "image": "https://i.ibb.co/8xXyGSM/the-tipping-point.jpg",
+        "price": 140,
+        "quantity": 0
+    },
+    {
+        "id": "cdef",
+        "name": "Outliers",
+        "author": "Malcolm Gladwell",
+        "image": "https://i.ibb.co/TKZYsCx/outliers.jpg",
+        "price": 150,
+        "quantity": 0
+    },
+    {
+        "id": "ghij",
+        "name": "The Decision Book",
+        "author": "Mikael Krogerus and Roman Tschappler",
+        "image": "https://i.ibb.co/RTP36YS/the-dicision-book.jpg",
+        "price": 170,
+        "quantity": 0
+    },
+    {
+        "id": "klmn",
+        "name": "The One Thing",
+        "author": "Gary Keller and Jay Papasan",
+        "image": "https://i.ibb.co/5RFkchM/the-one-thing.jpg",
+        "price": 130,
+        "quantity": 0
+    },
+    {
+        "id": "opqr",
+        "name": "The Power of Habit",
+        "author": "Charles Duhigg",
+        "image": "https://i.ibb.co/yd0ZKnw/the-power-of-habbit.jpg",
+        "price": 120,
+        "quantity": 0
+    },
+    {
+        "id": "stuv",
+        "name": "The Forty Rules of Love",
+        "author": "Elif Shafak",
+        "image": "https://i.ibb.co/Fb6FBHx/the-forty-rules-of-love.jpg",
+        "price": 140,
+        "quantity": 0
+    },
+    {
+        "id": "wxyz",
+        "name": "The Last Lecture",
+        "author": "Randy Pausch",
+        "image": "https://i.ibb.co/C9P256v/the-last-lecture.jpg",
+        "price": 150,
+        "quantity": 0
+    },
+    {
+        "id": "abc",
+        "name": "The One Minute Manager",
+        "author": "Kenneth Blanchard and Spencer Johnson",
+        "image": "https://i.ibb.co/r4bCZYX/the-one-minute-manager.jpg",
+        "price": 170,
+        "quantity": 0
+    },
+    {
+        "id": "def",
+        "name": "Who Moved My Cheese",
+        "author": "Dr Spencer Johnson",
+        "image": "https://i.ibb.co/JszfTP8/who-moved-my-cheese.jpg",
+        "price": 125,
+        "quantity": 0
+    },
+    {
+        "id": "ghi",
+        "name": "Six Thinking Hats",
+        "author": "Edward de Bono",
+        "image": "https://i.ibb.co/M5RyCBL/six-thinking-hats.jpg",
+        "price": 115,
+        "quantity": 0
+    },
+    {
+        "id": "jkl",
+        "name": "The Monk Who Sold His Ferrari",
+        "author": "Robin Sharma",
+        "image": "https://i.ibb.co/3012G9Z/the-monk-who-sold-his-ferrari.jpg",
+        "price": 165,
+        "quantity": 0
+    },
+    {
+        "id": "mno",
+        "name": "Man's Search for Meaning",
+        "author": "Viktor E. Frankl",
+        "image": "https://i.ibb.co/yn8mvMT/mans-search-for-meaning.jpg",
+        "price": 155,
+        "quantity": 0
+    },
+    {
+        "id": "pqr",
+        "name": "Unlimited Power",
+        "author": "Tony Robbins",
+        "image": "https://i.ibb.co/qjSg0ms/unlimited-power.jpg",
+        "price": 180,
+        "quantity": 0
+    },
+    {
+        "id": "stu",
+        "name": "Emotional Intelligence",
+        "author": "Daniel Goleman",
+        "image": "https://i.ibb.co/4RDsW0m/emotional-intelligence.jpg",
+        "price": 140,
+        "quantity": 0
+    },
+    {
+        "id": "vwx",
+        "name": "The Speed Reading Book",
+        "author": "Tony Buzan",
+        "image": "https://i.ibb.co/hHF2n2h/the-speed-reading-book.jpg",
+        "price": 150,
+        "quantity": 0
+    },
+    {
+        "id": "yza",
+        "name": "The Art of Thinking Clearly",
+        "author": "Rolf Dobelli",
+        "image": "https://i.ibb.co/6P8Z4Xv/the-art-of-thinking-clearly.jpg",
+        "price": 180,
+        "quantity": 0
+    }
+]

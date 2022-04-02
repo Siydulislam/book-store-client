@@ -1,0 +1,62 @@
+.book-card {
+    background-color: rgb(128, 93, 161);
+    border: 1px solid blueviolet;
+    color: white;
+    height: 550px;
+    width: 300px;
+    overflow: hidden;
+    justify-self: center;
+    transition: all ease-in-out 300ms;
+    position: relative;
+}
+
+.product-card:hover {
+    transform: translateX(-10px);
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px,
+        rgba(0, 0, 0, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -20px 20px,
+        rgba(0, 0, 0, 0.05) -25px 25px;
+}
+
+.book-card>.image-container>img {
+    height: 350px;
+    width: 300px;
+}
+
+.book-info {
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-info div h2 {
+    font-size: 1rem;
+}
+
+.book-info div small {
+    font-size: 1rem;
+}
+
+.cart-button {
+    height: 50px;
+    width: 300px;
+    border: none;
+    background: rgb(100, 72, 127);
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-button .cart-text {
+    margin-right: 5px;
+}
+
+.cart-button:hover {
+    background-color: blueviolet;
+}

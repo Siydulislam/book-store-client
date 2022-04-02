@@ -6,7 +6,6 @@ import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <div>
-      <h1>Book Store!!!</h1>
       <Navbar />
       <Home />
       <Answer />

@@ -2,9 +2,8 @@ import React from 'react';
 import './Books.css';
 import { BsCartPlus } from 'react-icons/bs';
 
-const Books = (book) => {
-    const { name, author, image, price } = book.book;
-    console.log(book.book)
+const Books = ({ book, handleAddToCart }) => {
+    const { name, author, image, price } = book;
     return (
         <div className="book-card">
             <div className="image-container">
@@ -17,7 +16,7 @@ const Books = (book) => {
                     <small>${price}</small>
                 </div>
             </div>
-            <button className="cart-button">
+            <button className="cart-button" onClick={() => handleAddToCart(book)}>
                 <p className="cart-text">Add to Cart</p>
                 <BsCartPlus />
             </button>

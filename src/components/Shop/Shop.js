@@ -5,7 +5,8 @@ import './Shop.css';
 
 const Shop = () => {
     const [books, setBooks] = useState([]);
-    console.log(books)
+    const [cart, setCart] = useState([]);
+    console.log(cart)
 
     useEffect(() => {
         fetch("data.json")
@@ -13,17 +14,33 @@ const Shop = () => {
             .then(data => setBooks(data))
     }, []);
 
+    const handleAddToCart = (selectedBooks) => {
+        let newCart = [];
+        newCart = [...cart, selectedBooks];
+        setCart(newCart);
+    };
+
+    const handleClearCart = () => {
+        setCart([]);
+    }
+
     return (
         <div className="shop-container">
             <div className="books-container">
-                {books.map((book, index) => {
-                    return (
-                        <Books
-                            key={index}
-                            book={book}
-                        />
-                    )
-                })}
+                {books.map((book, index) => (
+                    <Books
+                        key={index}
+                        book={book}
+                        handleAddToCart={handleAddToCart}
+                    />
+                ))}
+            </div>
+            <div className="cart-container">
+                <Cart
+                    cart={cart}
+                    books={books}
+                    handleClearCart={handleClearCart}
+                />
             </div>
         </div>
     );

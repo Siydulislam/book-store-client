@@ -1,18 +1,30 @@
 .shop-container {
     display: grid;
-    /* grid-template-columns: 3fr 1fr; */
+    grid-template-columns: 3fr 1fr;
 }
 
 .books-container {
-    width: 75%;
+    /* width: 75%; */
     margin: 30px 30px;
     display: grid;
-    gap: 45px;
+    gap: 40px;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .cart-container {
-    width: 25%;
+    /* width: 25%; */
     padding: 20px;
     border-left: 1px solid black;
+}
+
+@media screen and (max-width: 1100px) {
+    .books-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .books-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
